@@ -5,6 +5,11 @@ namespace MVPTest
 	public class CPresenter
 	{
 		IView mview;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="view"></param>
 		public CPresenter (IView view)
 		{
 			mview = view;
